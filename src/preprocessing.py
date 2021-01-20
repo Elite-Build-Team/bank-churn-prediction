@@ -4,7 +4,7 @@ from imblearn import over_sampling
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder, StandardScaler
 
-df = pd.read_csv("bank-churn-prediction/data/BankChurners.csv", delimiter=';')
+df = pd.read_csv("data/BankChurners.csv", delimiter=';')
 df.drop('CLIENTNUM', axis=1, inplace=True)  # Column not needed.
 
 # Attrition and gender are binary features, thus we use label encoder to encode them.
