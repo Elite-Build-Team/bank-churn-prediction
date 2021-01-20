@@ -1,5 +1,5 @@
-# bank-churn-prediction
-Machine learning techniques to predict bank churners
+# Bank churn prediction
+Comparing Random Forest, Gradient Boosting and SVM classifiers with respect to bank churning predictions.
 
 # Run
 ```bash
